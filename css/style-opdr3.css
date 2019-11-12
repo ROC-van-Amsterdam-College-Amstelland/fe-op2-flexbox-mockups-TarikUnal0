@@ -1,3 +1,73 @@
 html, body{
     height: 100%;
 }
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: green;
+    width: 100%;
+    height: 14%;
+    display: flex;
+    
+}
+
+.menu-button{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    margin: 30px;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+}
+main{
+    background-color: orange;
+    height: 100px;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+footer{
+    background-color: rgb(234, 25, 241) ;
+    width: 100%;
+    height: 14%;
+    
+}
+
+.links>ul{
+    flex-direction: row-reverse;
+    display: flex;
+    
+    
+}
+
+li{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+header>img{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 1050px;
+}
+
+.mainfoto{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    justify-items: center;
+    
+}
+
+.mainfoto>img{
+    padding-left: 50px;
+    padding-right: 200px;
+    padding-top: 70px;
+}
